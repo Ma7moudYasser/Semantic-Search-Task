@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    <p><strong>Input question:</strong> {{ result.input_question }}</p>
+    <p><strong>Time taken:</strong> {{ result.time_taken }} seconds</p>
+
+    <h2>Results:</h2>
+    {% for res in result.results %}
+        <div class="result">
+            <p><strong>Score:</strong> {{ res.score }}</p>
+            <p>{{ res.document }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
