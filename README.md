@@ -6,5 +6,5 @@ You can find the model directory [here](https://drive.google.com/drive/folders/1
 
 # The project is deployed through using Flask and ngrok
 
-![Alt Text](https://drive.google.com/file/d/1U3-ZnQ_ye_k63Uc7cu8KIqTBf6Z8gswv/export?format=png)
 
+![Home page](https://github.com/Ma7moudYasser/Semantic-Search-Task/assets/57537704/2966e89c-07fd-469a-8d6a-897251d624c8)
