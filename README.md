@@ -8,3 +8,7 @@ You can find the model directory [here](https://drive.google.com/drive/folders/1
 
 
 ![Home page](https://github.com/Ma7moudYasser/Semantic-Search-Task/assets/57537704/2966e89c-07fd-469a-8d6a-897251d624c8)
+
+
+
+![semantic results](https://github.com/Ma7moudYasser/Semantic-Search-Task/assets/57537704/8ec489a0-d0ef-4197-94f3-916a28821c2d)
