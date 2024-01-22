@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from sentence_transformers import SentenceTransformer, util
+from pyngrok import ngrok
 import pandas as pd
 import torch
 import time
@@ -7,8 +8,17 @@ import os
 
 app = Flask(__name__)
 
+#setting the auth token for ngrok
+ngrok.set_auth_token('2bGNhxtmw4FNSHnRghEXqpvYD7e_7NRqeyCSCpT9n2ce6Zv66')
+
+
+
+# Start the ngrok when the app is running 
+# Start Ngrok when the app is run
+public_url = ngrok.connect(5000)
+
 # Load SentenceTransformer model
-model_path = 'C:/Users/hp/Downloads/cyshield task/Semantic_keywords/NLP-main/Semantic Search/model_directory/sentence_transformer_model'
+model_path = 'C:/Users/20109/Downloads/assignment/Semantic_keywords/model_directory'
 model = SentenceTransformer(model_path)
 
 # Load corpus embeddings
@@ -52,4 +62,5 @@ def search_route():
         return render_template('index.html', error='Please enter a valid question.')
 
 if __name__ == '__main__':
+    print(' * Running on', public_url)
     app.run(debug=True)
