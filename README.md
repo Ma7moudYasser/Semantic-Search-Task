@@ -58,6 +58,11 @@ The biggest challenge which I have faced was the problem itself as it is the fir
    Refer to the official Sentence Transformers documentation for a hands-on example of implementing semantic search.
 
 
+# Tools
+## 1- ngrok
+## 2- Flask
+## 3- Sentence Transformers 
+
 
    # Conclusion
 In conclusion, the semantic search task aimed to enhance information retrieval by leveraging advanced techniques in natural language processing (NLP). The utilization of the Sentence Transformers library, specifically the 'LaBSE' model, provided a robust foundation for encoding textual information into semantically meaningful embeddings.
