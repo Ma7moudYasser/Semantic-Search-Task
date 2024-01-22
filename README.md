@@ -6,4 +6,5 @@ You can find the model directory [here](https://drive.google.com/drive/folders/1
 
 # The project is deployed through using Flask and ngrok
 
-![Landing Page][https://drive.google.com/file/d/1U3-ZnQ_ye_k63Uc7cu8KIqTBf6Z8gswv/view?usp=sharing]
+![Alt Text](https://drive.google.com/file/d/1U3-ZnQ_ye_k63Uc7cu8KIqTBf6Z8gswv/export?format=png)
+
